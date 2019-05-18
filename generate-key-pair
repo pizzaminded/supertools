@@ -6,6 +6,8 @@
 
 printf "generate-key-pair v1.0\n"
 
+#see https://coderwall.com/p/4zux3a/random-string-generator-bash
+#@TODO: provide an additional parameter to define which command should be used for random passphrases
 RANDOM_PASSWORD=$(cat /dev/random | LC_CTYPE=C tr -dc "[:alpha:]" | head -c 24)
 
 printf "Generated passphrase\n"

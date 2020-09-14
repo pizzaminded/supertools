@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# generate-key-pair
-# author: pizzaminded <miki@appvende.net>
+# generate-key-pair.sh
+# author: pizzaminded <mikolajczajkowsky@gmail.com>
 # license: MIT
 
 
